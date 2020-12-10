@@ -77,10 +77,10 @@ Repo name: DevOps_online_<City>_<year><quarter> Example: DevOps_online_Dnipro_20
 
 ```git merge images styles```
 20.	Merge develop into master.
-	```
+```
 	git checkout master
 	git merge develop
-	```
+```
 21.	Try to inspect your repository with git log command. Use different options with this command (git log --help).
 >Author: Oleksii Volchenko <alexey.dnepr.ua2@gmail.com>
 >Date:   Thu Dec 10 18:48:48 2020 +0200
