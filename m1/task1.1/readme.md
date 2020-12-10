@@ -19,13 +19,11 @@ git config --global core.editor vi
 ```
 3. Create account on GitHub.+
 4. Create new private repo on GitHub.
-Repo name: DevOps_online_<City>_<year><quarter> Example: DevOps_online_Dnipro_2020Q42021Q1
-+
+Repo name: DevOps_online_<City>_<year><quarter> Example: DevOps_online_Dnipro_2020Q42021Q1 +
 5. You can see example repository structure.+
 6. Clone repo to your workstation.
 ```git clone```
-7. Open git console in root directory of your project and make next steps.
-+
+7. Open git console in root directory of your project and make next steps. +
 8. Do all your experiments in folder “task1.1”.+
 9. Create empty readme.txt file.
 ```touch readme.txt```
