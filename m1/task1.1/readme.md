@@ -145,11 +145,12 @@ Repo name: DevOps_online_<City>_<year><quarter> Example: DevOps_online_Dnipro_20
 	```
 26.	Make file readme.md in folder task1.1 and describe results of your work with Git. +
 27.	Describe in your own words what DevOps is. Try to use not more 50 words. Do not use ctrl-C/ctrl-V.
-DevOps is not just a set of techniques, it is a philosophy. User-centered developers pay attention to support and support requests. Sysadmins reporting problems
-product and contribute to improving the work process.
-DevOps is a cultural movement that is changing people's attitudes towards work and towards
-its results. Thanks to the introduction of DevOps, intentional processes are formed that accelerate business efficiency. This contributes
-to the earliest possible result from social and technical innovations.
+
+>DevOps is not just a set of techniques, it is a philosophy. User-centered developers pay attention to support and support requests. Sysadmins reporting problems
+>product and contribute to improving the work process.
+>DevOps is a cultural movement that is changing people's attitudes towards work and towards
+>its results. Thanks to the introduction of DevOps, intentional processes are formed that accelerate business efficiency. This contributes
+>to the earliest possible result from social and technical innovations.
 28.	Insert your text about DevOps in readme.md. +
 
 29. Pictures
