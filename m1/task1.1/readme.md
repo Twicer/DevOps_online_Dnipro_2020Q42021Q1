@@ -75,7 +75,10 @@ Repo name: DevOps_online_<City>_<year><quarter> Example: DevOps_online_Dnipro_20
 	* merge “styles” into “develop”
 	* Do not delete any branches!
 
-```git merge images styles```
+```	
+	git merge images styles
+```
+
 20.	Merge develop into master.
 ```
 	git checkout master
