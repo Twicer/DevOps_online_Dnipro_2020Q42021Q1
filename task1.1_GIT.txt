@@ -1,0 +1,13 @@
+796dcbf HEAD@{0}: merge develop: Fast-forward
+1fc4231 HEAD@{1}: checkout: moving from develop to master
+796dcbf HEAD@{2}: merge images styles: Merge made by the 'octopus' strategy.
+e408d6f HEAD@{3}: commit: modified index.html and add some links
+e546e98 HEAD@{4}: checkout: moving from styles to develop
+761c495 HEAD@{5}: commit: Created styles folder with styles
+e546e98 HEAD@{6}: checkout: moving from develop to styles
+e546e98 HEAD@{7}: checkout: moving from images to develop
+c5bad9b HEAD@{8}: commit: Added images source
+e546e98 HEAD@{9}: checkout: moving from develop to images
+e546e98 HEAD@{10}: commit: index.html
+1fc4231 HEAD@{11}: checkout: moving from master to develop
+1fc4231 HEAD@{12}: commit (initial): Created readme.txt
