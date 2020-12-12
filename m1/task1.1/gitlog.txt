@@ -1,0 +1,36 @@
+commit 796dcbf58abfeb3056e2683e0781129ae8d611b1
+Merge: e408d6f c5bad9b 761c495
+Author: Oleksii Volchenko <alexey.dnepr.ua2@gmail.com>
+Date:   Thu Dec 10 17:37:07 2020 +0200
+
+    Merge branches 'images' and 'styles' into develop
+
+commit e408d6f6e3fc6de862ac4f1f6aed87d7ee32c725
+Author: Oleksii Volchenko <alexey.dnepr.ua2@gmail.com>
+Date:   Thu Dec 10 17:31:29 2020 +0200
+
+    modified index.html and add some links
+
+commit 761c49533d007c0a1a701d6970311a977766471c
+Author: Oleksii Volchenko <alexey.dnepr.ua2@gmail.com>
+Date:   Thu Dec 10 17:23:21 2020 +0200
+
+    Created styles folder with styles
+
+commit c5bad9b8c74c2dab3923df9ffd07a322ecd508d2
+Author: Oleksii Volchenko <alexey.dnepr.ua2@gmail.com>
+Date:   Thu Dec 10 17:16:33 2020 +0200
+
+    Added images source
+
+commit e546e987ab7d92b5bd71c64a2eb59f0bb443a0e0
+Author: Oleksii Volchenko <alexey.dnepr.ua2@gmail.com>
+Date:   Thu Dec 10 17:13:34 2020 +0200
+
+    index.html
+
+commit 1fc4231ea3f8c545706c0ffa46d786ed8eb08bc9
+Author: Oleksii Volchenko <alexey.dnepr.ua2@gmail.com>
+Date:   Thu Dec 10 17:10:31 2020 +0200
+
+    Created readme.txt
