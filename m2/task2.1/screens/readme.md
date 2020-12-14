@@ -8,4 +8,6 @@ After this step I Added Prefix VM1 and VM2
 ![7.png](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m2/task2.1/screens/2020-12-12_23-07.png)
 ![8.png](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m2/task2.1/screens/2020-12-12_23-08.png)
 ![9.png](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m2/task2.1/screens/2020-12-12_23-10.png)
+
+
 After that I installed ExtensionPack as on the [beginning](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m2/task2.1/readme.md) 
