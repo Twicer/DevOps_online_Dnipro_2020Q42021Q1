@@ -127,6 +127,8 @@ VBoxManage controlvm "UbuntuServer20LTS" acpisleepbutton
 ```
 > OR I could use special cloud image
 http://cloud-images.ubuntu.com/
+
+See screenshots, please [click here](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m2/task2.1/screens/readme.md)
 #### PART 3. WORK WITH VAGRANT
 
 
