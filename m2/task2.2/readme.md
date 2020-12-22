@@ -78,3 +78,7 @@ aws cp "%tmp%\image.jpg" s3://moe-vedro
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m2/task2.2/screens/2020-12-22_194628.jpg)
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m2/task2.2/screens/2020-12-22_194644.jpg)
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m2/task2.2/screens/2020-12-22_201335.jpg)
+
+
+<https://s3.amazonaws.com/devops2021winter.alexvolch.ml/index.html>
+<http://devops2021winter.alexvolch.ml/>
