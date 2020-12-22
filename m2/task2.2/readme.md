@@ -81,4 +81,5 @@ aws cp "%tmp%\image.jpg" s3://moe-vedro
 
 
 <https://s3.amazonaws.com/devops2021winter.alexvolch.ml/index.html>
+
 <http://devops2021winter.alexvolch.ml/>
