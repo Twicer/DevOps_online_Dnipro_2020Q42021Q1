@@ -131,4 +131,33 @@ http://cloud-images.ubuntu.com/
 See screenshots, please [click here](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m2/task2.1/screens/readme.md)
 #### PART 3. WORK WITH VAGRANT
 
+![1](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m2/task2.1/screens_task2.1_part3_vagrant/1.png)
+![2](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m2/task2.1/screens_task2.1_part3_vagrant/2.png)
+![3](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m2/task2.1/screens_task2.1_part3_vagrant/3.png)
+![4](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m2/task2.1/screens_task2.1_part3_vagrant/4.png)
+![5](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m2/task2.1/screens_task2.1_part3_vagrant/5.png)
 
+```
+vagrant halt
+vagrant destroy
+```
+
+After that I changed another Vagrant [file](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m2/task2.1/student_Oleksii/Vagrantfile)
+And run it
+```
+vagrant run
+```
+Conected from SSH
+```
+vagrant ssh
+```
+I Closed session
+```
+exit
+```
+Halt and Destroy
+```
+vagrant halt
+vagrant destroy
+```
+Said yes
