@@ -52,8 +52,9 @@
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m2/task2.2/screens/2020-12-22_164045.jpg)
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m2/task2.2/screens/2020-12-22_164050.jpg)
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m2/task2.2/screens/2020-12-22_164123.jpg)
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m2/task2.2/screens/2020-12-22_165756.jpg)
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m2/task2.2/screens/2020-12-22_165827.jpg)
+
+I changed OS bcz I had troubles with dependencies and I didn't have more time for this. Maybe another time...
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m2/task2.2/screens/2020-12-22_182048.jpg)
 
 After that I used commands:
