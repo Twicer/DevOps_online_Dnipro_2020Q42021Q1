@@ -217,3 +217,77 @@ REVOKE SELECT ON girls.* FROM admin@localhost;
 
 ##### PART 2
 
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.2/2020-12-25_111925.jpg)
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.2/2020-12-25_114558.jpg)
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.2/2020-12-25_115507.jpg)
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.2/2020-12-25_120457.jpg)
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.2/2020-12-25_151117.jpg)
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.2/2020-12-25_151156.jpg)
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.2/2020-12-25_155732.jpg)
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.2/2020-12-25_161432.jpg)
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.2/2020-12-25_161541.jpg)
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.2/2020-12-25_161555.jpg)
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.2/2020-12-25_164552.jpg)
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.2/2020-12-25_165542.jpg)
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-25_170348.jpg)
+
+```
+mysqldump --user=admin --password=admin studentsDB > /home/debian/students.sql
+
+mysql --user="admin" --password="admin" --database="studentsDB" --execute="DROP TABLE Lviv;"
+
+root@virt:/home/debian# mysql --user="root" --password="root" --execute="CREATE DATABASE restore_studentsDB;"
+mysql --user="root" --password="root" --execute="SHOW DATABASES;"
+mysql --user="root" --password="root" --execute="GRANT ALL PRIVILEGES ON restore_studentsDB.* TO admin@localhost IDENTIFIED BY 'admin';"
+mysql --user="admin" --password="admin" --execute="SHOW DATABASES;"
+
+mysql restore_studentsDB < students.sql
+
+mysql -h database-2.cqpxgdmu7cme.us-east-1.rds.amazonaws.com -P 3306 -u admin -p -e "SHOW DATABASES;"
+
+mysql -h database-2.cqpxgdmu7cme.us-east-1.rds.amazonaws.com -P 3306 -u admin -p -e "CREATE DATABASE cloud_studentsDB; USE cloud_studentsDB;"
+
+mysql -h database-2.cqpxgdmu7cme.us-east-1.rds.amazonaws.com -P 3306 -u admin -p -e "SHOW DATABASES;"
+
+mysql -h database-2.cqpxgdmu7cme.us-east-1.rds.amazonaws.com -P 3306 -u admin -p cloud_studentsDB -e "SHOW TABLES                           "
+
+mysql -h database-2.cqpxgdmu7cme.us-east-1.rds.amazonaws.com -P 3306 -u admin -p cloud_studentsDB -e "SELECT * FROM Lviv
+WHERE Name='Ruslan Riznyk';
+SELECT COUNT(Name), Mail
+FROM Lviv
+GROUP BY Mail;
+SELECT Name, Surname, Mail
+FROM Kiev
+ORDER BY Mail ASC, Name DESC;"
+
+mysqldump --user=admin --password=admin studentsDB > /home/debian/students.sql
+
+diff students.sql CLOUDstudents.sql
+```
+##### PART 3
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.3/2020-12-25_175547.jpg)
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.3/2020-12-25_175620.jpg)
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.3/2020-12-25_175848.jpg)
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.3/2020-12-25_180027.jpg)
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.3/2020-12-25_180359.jpg)
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.3/2020-12-25_180530.jpg)
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.3/2020-12-25_180623.jpg)
