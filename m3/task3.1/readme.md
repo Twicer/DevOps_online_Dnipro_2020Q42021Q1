@@ -241,7 +241,7 @@ REVOKE SELECT ON girls.* FROM admin@localhost;
 
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.2/2020-12-25_165542.jpg)
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-25_170348.jpg)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.2/2020-12-25_170348.jpg)
 
 ```
 mysqldump --user=admin --password=admin studentsDB > /home/debian/students.sql
