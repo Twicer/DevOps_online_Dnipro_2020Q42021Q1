@@ -7,39 +7,73 @@
 #### TASK 3.1
 ##### PART 1
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-23_170006.jpg)
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-24_230510.jpg)
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-24_230629.jpg)
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-24_230712.jpg)
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-24_230732.jpg)
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-24_230822.jpg)
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-24_230955.jpg)
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-24_231031.jpg)
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-24_231042.jpg)
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-24_231959.jpg)
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-24_232032.jpg)
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-24_232055.jpg)
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-24_232112.jpg)
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-24_232128.jpg)
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-24_232655.jpg)
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-24_233914.jpg)
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-24_234102.jpg)
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-24_234407.jpg)
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-24_234559.jpg)
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-24_234719.jpg)
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-24_234804.jpg)
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-25_092515.jpg)
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-25_092525.jpg)
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-25_092645.jpg)
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-25_092740.jpg)
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-25_093430.jpg)
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-25_093507.jpg)
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-25_093908.jpg)
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-25_094010.jpg)
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-25_100816.jpg)
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-25_100931.jpg)
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-25_101452.jpg)
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-25_101844.jpg)
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-25_102106.jpg)
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-25_102249.jpg)
 
 ```
@@ -155,3 +189,31 @@ SHOW GRANTS FOR amiliya@localhost;
 
 REVOKE SELECT ON girls.* FROM admin@localhost;
 ```
+> DDL DDL is the short name for a data definition language that deals with database schemas and descriptions of how data is supposed to reside in a database.
+> CREATE - to create a database and its objects such as (table, index, views, storage procedure, function and triggers)
+> ALTER - changes the structure of an existing database
+> DROP - deleting objects from the database
+> TRUNCATE - deletes all records from a table, including deleting all spaces allocated for records
+> COMMENT - adding comments to the data dictionary
+> RENAME - rename an object
+> DML DML is the short name for a data manipulation language that deals with data manipulation and includes the most common SQL statements like SELECT, INSERT, UPDATE, DELETE, etc., and it is used to store, modify, retrieve, deleting and updating data in the database.
+> SELECT - retrieve data from database a
+> INSERT - inserting data into a table
+> UPDATE - updating existing data in a table
+> DELETE - deletes all records from a database table
+> MERGE - UPSERT operation (insert or update)
+> CALL - call a PL / SQL or Java subroutine
+> Explain the plan - interpretation of the data access path
+> LOCK TABLE - concurrency control
+> DCL DCL is the short name for a data management language that includes commands such as GRANT and is mainly related to rights, permissions, and other controls on the database system.
+> GRANT - allow users to access the database with permissions
+> REVOKE - revoke user permissions granted with the GRANT command
+> TCL TCL is the short name for a transaction management language that deals with transactions in a database.
+> COMMIT - makes deals
+> ROLLBACK - rollback a transaction in case of any error
+> SAVEPOINT - rollback a transaction by making points insid
+
+[LINK](https://www.w3schools.in/mysql/ddl-dml-dcl/)
+
+##### PART 2
+
