@@ -36,10 +36,13 @@ address необхідно ввести відповідну адресу, а в
 
 6. > Простежити за порядком і шляхом проходження пакетів у вікні
 Simulation Panel (рис. 3). Зберегти даний скріншот.
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.1/screens/1-8/9_step6.jpg)
+
 7. > Переглянути інформацію о пакетах з вікна Simulation Panel і їх
 відповідність моделі OSI шляхом подвійного клацання по пакету в вікні (рис.
 4). Результати зберегти як скриншот.
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.1/screens/1-8/2.jpg)
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.1/screens/1-8/3.jpg)
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.1/screens/1-8/4.jpg)
@@ -72,6 +75,7 @@ PC4 192.168.0.6
 PC5 192.168.0.7
 Server 192.168.0.5
 ```
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.1/screens/9-11/1.jpg)
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.1/screens/9-11/2.jpg)
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.1/screens/9-11/3.jpg)
@@ -83,7 +87,11 @@ Server 192.168.0.5
 11. > Перевірити працездатність мережі.
 
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.1/screens/9-11/8.jpg)
+
+На данном моменте можно увидеть коллизию, которая происходит при одновременном доступе к нескольким ресурсам. Например броадкасте.
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.1/screens/9-11/broadcast_traffic_and_collision.gif)
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.1/screens/9-11/worked2.gif)
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.1/screens/9-11/worked.gif)
 
