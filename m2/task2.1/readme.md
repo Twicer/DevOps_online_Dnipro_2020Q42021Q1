@@ -41,6 +41,8 @@ https://en.wikipedia.org/wiki/Comparison_of_platform_virtualization_software
 
 #### PART 2. WORK WITH VIRTUALBOX
 
+[Deployment process In VirtualBox GUI mode](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m2/task2.1/screens/readme.md)
+
 ```
 wget https://download.virtualbox.org/virtualbox/6.1.16/virtualbox-6.1_6.1.16-140961~Debian~buster_amd64.deb
 dpkg -i ./virtualbox-6.1_6.1.16-140961~Debian~buster_amd64.deb
