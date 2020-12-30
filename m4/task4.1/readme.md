@@ -11,6 +11,8 @@
 
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.1/screens/1-8/1.jpg)
 
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.1/screens/1-8/1.gif)
+
 2. > Зберегти проект і його скріншот
 3. > Кожному ПК привласнити унікальну IP адресу. Для її призначення
 необхідно зайти в меню конфігурації ПК шляхом одноразового клацання по
@@ -56,6 +58,8 @@ Simulation Panel (рис. 3). Зберегти даний скріншот.
 
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.1/screens/1-8/10.jpg)
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.1/screens/1-8/14.jpg)
+
+Робота с IP адресами
 
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.1/screens/1-8/1.gif)
 
