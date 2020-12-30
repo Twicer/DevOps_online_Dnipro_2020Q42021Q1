@@ -5,6 +5,7 @@
 
 
 #### TASK 3.1
+***
 ##### PART 1
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-23_170006.jpg)
 
@@ -214,7 +215,7 @@ REVOKE SELECT ON girls.* FROM admin@localhost;
 > SAVEPOINT - rollback a transaction by making points insid
 
 [LINK](https://www.w3schools.in/mysql/ddl-dml-dcl/)
-
+***
 ##### PART 2
 
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.2/2020-12-25_111925.jpg)
@@ -241,7 +242,7 @@ REVOKE SELECT ON girls.* FROM admin@localhost;
 
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.2/2020-12-25_165542.jpg)
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.1/2020-12-25_170348.jpg)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.2/2020-12-25_170348.jpg)
 
 ```
 mysqldump --user=admin --password=admin studentsDB > /home/debian/students.sql
@@ -276,6 +277,7 @@ mysqldump --user=admin --password=admin studentsDB > /home/debian/students.sql
 
 diff students.sql CLOUDstudents.sql
 ```
+***
 ##### PART 3
 
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m3/task3.1/screens3.1.3/2020-12-25_175547.jpg)
