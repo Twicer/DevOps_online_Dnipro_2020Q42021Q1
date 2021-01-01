@@ -70,6 +70,8 @@ wr mem
 
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.3/screens/outside_server.gif)
 
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.3/screens/broadcast_all.jpg)
+
 Сформированный конфиг роутера Router0
 
 ```
