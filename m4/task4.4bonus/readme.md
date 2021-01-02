@@ -12,9 +12,9 @@
 
 ***
 
-[English Version](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.4_bonus1/readmeENG.md)
+[English Version](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.4_bonus/readmeENG.md)
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.4_bonus1/screens/1.jpg)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.4bonus/screens/1.jpg)
 
 Таблица подсетей:
 
@@ -90,7 +90,7 @@ Building1#reload
 
 Демо работы сети:
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.4_bonus1/screens/1.gif)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.4bonus/screens/1.gif)
 
 
 
@@ -101,7 +101,7 @@ Building1#reload
 
 > Організувати 2 підмережі. Налаштувати DNS на серверах.
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.4_bonus1/screens/2.jpg)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.4bonus/screens/2.jpg)
 
 Роутер был сконфигурирован на основании предыдущих заданий.
 
@@ -118,12 +118,12 @@ Building1#reload
 
 Конфигурация DNS на серверах:
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.4_bonus1/screens/3.jpg)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.4bonus/screens/3.jpg)
 
 Быстрая проверка через пинг:
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.4_bonus1/screens/4.jpg)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.4bonus/screens/4.jpg)
 
 Демо работы HTTP + DNS серверов:
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.4_bonus1/screens/2.gif)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.4bonus/screens/2.gif)
