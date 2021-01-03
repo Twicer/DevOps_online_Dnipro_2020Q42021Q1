@@ -198,3 +198,13 @@ Unfortunately, it was not possible to record a complete Demo of the functional n
 ##### Завдання 3
 
 > Необхідно  змоделювати  локальну  мережу  комплексу  з  5 одноповерхових будівель. Одна будівля -1робочагрупапо 6 комп'ютерів. Мережа будується на основі маршрутизатора з одним портом.
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.2/screens/31.jpg)
+
+Demo:
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.2/screens/31.gif)
+
+Demo ICMP:
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.2/screens/32.gif)
