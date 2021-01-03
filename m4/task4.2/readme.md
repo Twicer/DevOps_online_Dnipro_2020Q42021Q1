@@ -87,7 +87,7 @@ Demo:
 
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.4bonus/screens/1.gif)
 
-
+***
 
 ##### Завдання 2
 
@@ -194,6 +194,7 @@ I would use DNS on the router, but it did not work properly as I wanted.
 
 Unfortunately, it was not possible to record a complete Demo of the functional network :(
 
+***
 
 ##### Завдання 3
 
@@ -219,3 +220,8 @@ Demo:
 Demo ICMP:
 
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.2/screens/32.gif)
+
+
+
+>* In the process of completing the last task, I wanted to use a gigabit network, but PT limitations and "performance limitations" and a bug did not allow me to implement this include with DHCP. I do not exclude the limitation of the performance of the switch installed by me. But logically it works in real life.
+DHCP failed. APIPA is being used.
