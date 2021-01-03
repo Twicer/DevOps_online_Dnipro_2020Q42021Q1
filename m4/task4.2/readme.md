@@ -201,6 +201,17 @@ Unfortunately, it was not possible to record a complete Demo of the functional n
 
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.2/screens/31.jpg)
 
+Table with Subnets and VLANs:
+
+|    Name   	| Network    	| GW Address 	| Prefix 	| Subnet        	| Range                     	| Broadcast    	| VLAN № 	| DHCP/StaticIP 	|
+|:---------:	|------------	|:----------:	|:------:	|---------------	|---------------------------	|--------------	|:------:	|:-------------:	|
+| Building1 	| 172.16.0.0 	| 172.16.0.1 	| 24     	| 255.255.255.0 	| 172.16.0.1 - 172.16.0.254 	| 172.16.0.255 	| 10     	| DHCP          	|
+| Building2 	| 172.16.1.0 	| 172.16.1.1 	| 24     	| 255.255.255.0 	| 172.16.1.1 - 172.16.1.254 	| 172.16.1.255 	| 20     	| DHCP          	|
+| Building3 	| 172.16.2.0 	| 172.16.2.1 	| 24     	| 255.255.255.0 	| 172.16.2.1 - 172.16.2.254 	| 172.16.2.255 	| 30     	| DHCP          	|
+| Building4 	| 172.16.3.0 	| 172.16.3.1 	| 24     	| 255.255.255.0 	| 172.16.3.1 - 172.16.3.254 	| 172.16.3.255 	| 40     	| DHCP          	|
+| Building5 	| 172.16.4.0 	| 172.16.4.1 	| 24     	| 255.255.255.0 	| 172.16.4.1 - 172.16.4.254 	| 172.16.4.255 	| 50     	| DHCP          	|
+
+
 Demo:
 
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.2/screens/31.gif)
