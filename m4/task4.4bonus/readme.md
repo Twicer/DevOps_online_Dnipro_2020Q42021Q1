@@ -127,3 +127,5 @@ Building1#reload
 Демо работы HTTP + DNS серверов:
 
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.4bonus/screens/2.gif)
+
+© Oleksii Volchenko
