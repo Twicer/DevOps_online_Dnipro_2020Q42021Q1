@@ -128,3 +128,5 @@ A quick check through Ping:
 Demo "HTTP + DNS servers" :
 
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m4/task4.4bonus/screens/2.gif)
+
+© Oleksii Volchenko
