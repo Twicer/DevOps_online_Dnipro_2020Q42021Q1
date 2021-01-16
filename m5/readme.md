@@ -12,12 +12,12 @@
 ssh root@192.168.0.9
 ```
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/task1/screens/1.jpg)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/0.jpg)
 
 2) Use the passwd command to change the password. Examine the basic
 parameters of the command. What system file does it change *?
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/task1/screens/1.jpg)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/1.jpg)
 
 ```sh
 [root@localhost ~]# passwd --help
@@ -50,8 +50,8 @@ execute. What additional information can be gleaned from the command
 execution?
 Output of ```who, w, whoami,id```:
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/task1/screens/2.jpg)
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/task1/screens/3.jpg)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/2.jpg)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/3.jpg)
 
 I cauld to use vipw command
 
@@ -60,15 +60,15 @@ The exec() family of functions replaces the current process image with a new pro
 
 4) Change personal information about yourself.
  
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/task1/screens/4.jpg)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/4.jpg)
  
 5) Become familiar with the Linux help system and the man and info commands.
 Get help on the previously discussed commands, define and describe any two
 keys for these commands. Give examples.
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/task1/screens/8.jpg)
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/task1/screens/7.jpg)
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/task1/screens/6.jpg)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/8.jpg)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/7.jpg)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/6.jpg)
 
 Or command - ```whatis```
 
@@ -378,16 +378,16 @@ read the documentation for the finger command.
 
 I was using CentOS. The last version of CentOs doesn't have ```finger``` command, the alternative command is ```pinky```
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/task1/screens/9.jpg)
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/task1/screens/10.jpg)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/9.jpg)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/10.jpg)
 
 8) * List the contents of the home directory using the ls command, define its files
 and directories. Hint: Use the help system to familiarize yourself with the ls
 command.
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/task1/screens/11.jpg)
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/task1/screens/12.jpg)
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/task1/screens/13.jpg)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/11.jpg)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/12.jpg)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/13.jpg)
 
 1st column 
 permission
