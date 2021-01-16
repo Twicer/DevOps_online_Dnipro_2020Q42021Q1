@@ -1,4 +1,4 @@
-1.# EPAM University Programs
+# EPAM University Programs
 
 ## DevOps education program
 ### Module 5 Linux Essentials
