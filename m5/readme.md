@@ -43,7 +43,7 @@ Help options:
       --usage             Display brief usage message
 ```
 
-After changing the password using `` '' passwd`` command, hashes in file /etc/shadow had rewritten.
+After changing the password using ```passwd``` command, hashes in file ```/etc/shadow``` had rewritten.
 
 3) Determine the users registered in the system, as well as what commands they
 execute. What additional information can be gleaned from the command
@@ -57,6 +57,8 @@ I cauld to use vipw command
 
 I don't have command execution on my CentOS. If you mean ```exec``` command than we can Replace the shell with the given command.
 The exec() family of functions replaces the current process image with a new process image. The initial argument for these functions is the name of a file that is to be executed. The functions can be grouped based on the letters following the "exec" prefix.
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/49.jpg)
 
 4) Change personal information about yourself.
  
@@ -373,7 +375,7 @@ __git_ps1_colorize_gitstring ()
 # __git_eread requires 2 arguments, the file pa
 ```
 
-7) * Describe in plans that you are working on laboratory work 1. Tip: You should
+7) *Describe in plans that you are working on laboratory work 1. Tip: You should
 read the documentation for the finger command.
 
 I was using CentOS. The last version of CentOs doesn't have ```finger``` command, the alternative command is ```pinky```
@@ -381,7 +383,7 @@ I was using CentOS. The last version of CentOs doesn't have ```finger``` command
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/9.jpg)
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/10.jpg)
 
-8) * List the contents of the home directory using the ls command, define its files
+8) *List the contents of the home directory using the ls command, define its files
 and directories. Hint: Use the help system to familiarize yourself with the ls
 command.
 
@@ -389,17 +391,306 @@ command.
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/12.jpg)
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/13.jpg)
 
-1st column 
+* 1st column 
 permission
-2nd column
+* 2nd column
 This tells us about how many link to this file
-3rd column
+* 3rd column
 This tells us about who is the owner of the file/directory
-4th column
+* 4th column
 This tells us about who the group owner of the file/directory
-5th column
+* 5th column
 This tells us about the size of the file/directory in bytes unit. Except for directories, the size will always count as 4096 bytes
-6th column
+* 6th column
 This tells us about the last time and date the file is modified
-7th column
+* 7th column
 This tells us the filename or directory name
+
+ls - list directory contents
+ls -l / - show content of root directory using long listing format
+ls ~ - show content of home folder
+ls -a - show ALL, do not ignore entries starting with dot
+ls -la - combine of ALL and long listing format
+ls -lda ~ - adds -d flag : list directory entries instead of contents
+
+***
+
+##### Part2
+
+
+1) Examine the tree command. Master the technique of applying a template, for
+example, display all files that contain a character c, or files that contain a
+specific sequence of characters. List subdirectories of the root directory up to
+and including the second nesting level.
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/20.jpg)
+
+To list the directory contents with the full path prefix for each sub-directory and file, i used the -f as shown.
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/21.jpg)
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/23.jpg)
+
+I specified the maximum display depth of the directory tree using the -L option. For example, a depth of 2
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/22.jpg)
+
+
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/25.jpg)
+
+To display only those files that match the wild-card pattern I used the -P flag and specify your pattern.  The command will only list files that match c*
+```tree -P [[pattern]*]/[*[pattern]]/[[*pattern*]]```
+
+I can also use the tree command to list everything but the files containing a specific wild card pattern.
+Do not list those files that match the wild-card pattern.
+
+```tree -I *[keywords]```
+
+I  prune empty directories from the output by adding the --prune option
+There are also some useful file options supported by tree such as -p which prints the file type and permissions for each file in a similar way as the ls -l
+
+List subdirectories of the root directory up to
+and including the second nesting level.
+
+```tree -d -L 1```
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/24.jpg)
+
+2) What command can be used to determine the type of file (for example, text or
+binary)? Give an example.
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/26.jpg)
+Command ```file```
+
+3) Master the skills of navigating the file system using relative and absolute paths.
+How can you go back to your home directory from anywhere in the filesystem?
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/27.jpg) 
+
+``` sh
+cd /var/log
+cd /run/app
+cd /etc/sound/events
+
+#root folder
+cd /  
+# change directory to 1/2 level up on directory system
+cd ..
+cd .
+cd ../
+#home directory
+cd $HOME
+cd ~ 
+
+#pwd - present working directory
+```
+etc.
+
+4) Become familiar with the various options for the ls command. Give examples
+of listing directories using different keys. Explain the information displayed on
+the terminal using the -l and -a switches.
+
+> See Part 1 exercises #8
+
+5) Perform the following sequence of operations:
+- create a subdirectory in the home directory;
+- in this subdirectory create a file containing information about directories
+located in the root directory (using I/O redirection operations);
+- view the created file;
+- copy the created file to your home directory using relative and absolute
+addressing.
+- delete the previously created subdirectory with the file requesting removal;
+- delete the file copied to the home directory.
+
+```sh
+#! /bin/bash
+cd /home/main/
+mkdir alex
+tree -d -L 1 / > ./alex/volchenko.txt
+cat ./alex/volchenko.txt
+cp /home/main/alex/volchenko.txt /home/main/
+ls /home/main/
+rm -ri /home/main/alex/
+rm -rf /home/main/volcheko.txt
+```
+
+6) Perform the following sequence of operations:
+- create a subdirectory test in the home directory;
+- copy the .bash_history file to this directory while changing its name to labwork2;
+- create a hard and soft link to the labwork2 file in the test subdirectory;
+- how to define soft and hard link, what do these
+concepts;
+- change the data by opening a symbolic link. What changes will happen and
+why
+- rename the hard link file to hard_lnk_labwork2;
+- rename the soft link file to symb_lnk_labwork2 file;
+- then delete the labwork2. What changes have occurred and why?
+
+```sh
+#! /bin/bash
+df
+mkdir /home/main/test
+cp $HOME/.bash_history /home/main/test/labwork2
+cd /home/main/test
+#created hardlink
+ln -s labwork2 symb_lnk_labwork2
+ln labwork2 hard_lnk_labwork2
+#checking links 
+ls -lia
+df -i
+rm -rf labwork2
+file labwork2
+cat labwork2
+```
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/28.jpg)
+A symbolic or soft link is an actual link to the original file, whereas a hard link is a mirror copy of the original file. If delete the original file, the soft link has no value, because it points to a non-existent file. But in the case of hard link, it is entirely opposite. Even if delete the original file, the hard link will still has the data of the original file. Because hard link acts as a mirror copy of the original file.
+
+screen
+
+7) Using the locate utility, find all files that contain the squid and traceroute
+sequence.
+
+```updatedb``` - update filebase
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/29.jpg)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/30.jpg)
+
+8) Determine which partitions are mounted in the system, as well as the types of
+these partitions.
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/31.jpg)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/32.jpg)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/33.jpg)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/34.jpg)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/35.jpg)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/36.jpg)
+
+```cfdicsk```
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/37.jpg)
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/38.jpg)
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/39.jpg)
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/47.jpg)
+
+9) Count the number of lines containing a given sequence of characters in a given
+file.
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/40.jpg)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/41.jpg)
+
+10) Using the find command, find all files in the /etc directory containing the
+host character sequence.
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/42.jpg)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/43.jpg)
+
+11) List all objects in /etc that contain the ss character sequence. How can I
+duplicate a similar command using a bunch of grep?
+
+```sh 
+cd /etc 
+grep ss * && !!
+```
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/44.jpg)
+
+* Search across multiple files
+> This's command finds inside and outside the file. It's interesting and I think I must write here.
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/45.jpg)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/46.jpg)
+
+12) Organize a screen-by-screen print of the contents of the /etc directory. Hint:
+You must use stream redirection operations.
+
+```ls -la /etc | less > /dev/pts/0```
+
+```ls -a /etc | less > /dev/pts/0```
+
+```dir /etc | less > /dev/pts/0```
+
+13) What are the types of devices and how to determine the type of device? Give
+examples.
+
+EXAMPLES:
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/47.jpg)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/48.jpg)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/50.jpg)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/51.jpg)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/52.jpg)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/53.jpg)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/54.jpg)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/55.jpg)
+
+The ones that have a "b" are block type devices and the ones that begin with "c" are character devices.
+p - pipe
+s - socket
+
+See above in Part2
+
+Common SCSI device files:
+
+/dev/sda - First hard disk
+/dev/sdb - Second hard disk
+/dev/sda3 - Third partition on the first hard disk
+Pseudo Devices
+
+As we discussed earlier, pseudo devices aren't really physically connected to your system, most common pseudo devices are character devices:
+
+/dev/zero - accepts and discards all input, produces a continuous stream of NULL (zero value) bytes
+/dev/null - accepts and discards all input, produces no output
+/dev/random - produces random numbers
+/dev/pts -  "display" accepts and output
+
+Pseudo & Terminals
+/dev/tty - virtual console
+/dev/pty pseudo terminals
+
+
+PATA Devices
+Sometimes in older systems you may see hard drives being referred to with an hd prefix:
+
+/dev/hda - First hard disk
+/dev/hdd2 - Second partition on 4th hard disk
+
+[https://www.debian.org/releases/wheezy/amd64/apds01.html.en](https://www.debian.org/releases/wheezy/amd64/apds01.html.en)
+
+14) How to determine the type of file in the system, what types of files are there?
+
+> See last 2 screens^
+
+You can use ```ls -l``` command for this operation.
+
+Regular file - Regular files show up with a hyphen-minus ```-```
+Directory - `d`
+Symbolic link - `l`
+FIFO (named pipe) - `p` - connect the output of one process to the input of another
+Socket - `s` - A socket is a special file used for inter-process communication, which enables communication between two processes. In addition to sending data, processes can send file descriptors
+Device file (block, character) - See above
+
+15) * List the first 5 directory files that were recently accessed in the /etc
+directory.
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/56.jpg)
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/57.jpg)
+
+
+>> This is what I found on unix.stackexchnage.com . I think It's interesting and I leave here for myself
+
+To print the last 3 accessed files (sorted from the last accessed file to the third last accessed file):
+
+```find . -type f -exec stat -c '%X %n' {} \; | sort -nr | awk 'NR==1,NR==3 {print $2}'```
+
+To print the last 3 modified files (sorted from the last modified file to the third last modified file):
+
+```find . -type f -exec stat -c '%Y %n' {} \; | sort -nr | awk 'NR==1,NR==3 {print $2}'
+find . -type f -exec stat -c '%X %n' *: prints the last access' time followed by the file's path for each file in the current directory hierarchy;
+find . -type f -exec stat -c '%Y %n' *: prints the last modification's time followed by the file's path for each file in the current directory hierarchy;
+sort -nr: sorts in an inverse numerical order;
+awk 'NR==1,NR==3 {print $2}': prints the second field of the first, second and third line.
+```
+
+You can change the number of files to be shown by changing 3 to the desired number of files in ```awk 'NR==1,NR==3 {print $2}'```.
