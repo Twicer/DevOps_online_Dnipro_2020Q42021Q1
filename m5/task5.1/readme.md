@@ -12,12 +12,12 @@
 ssh root@192.168.0.9
 ```
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/0.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens0.jpg)
 
 2) Use the passwd command to change the password. Examine the basic
 parameters of the command. What system file does it change *?
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/1.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens1.jpg)
 
 ```sh
 [root@localhost ~]# passwd --help
@@ -50,27 +50,27 @@ execute. What additional information can be gleaned from the command
 execution?
 Output of ```who, w, whoami,id```:
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/2.jpg)
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/3.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens2.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens3.jpg)
 
 I cauld to use vipw command
 
 I don't have command execution on my CentOS. If you mean ```exec``` command than we can Replace the shell with the given command.
 The exec() family of functions replaces the current process image with a new process image. The initial argument for these functions is the name of a file that is to be executed. The functions can be grouped based on the letters following the "exec" prefix.
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/49.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens49.jpg)
 
 4) Change personal information about yourself.
  
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/4.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens4.jpg)
  
 5) Become familiar with the Linux help system and the man and info commands.
 Get help on the previously discussed commands, define and describe any two
 keys for these commands. Give examples.
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/8.jpg)
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/7.jpg)
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/6.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens8.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens7.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens6.jpg)
 
 Or command - ```whatis```
 
@@ -380,16 +380,16 @@ read the documentation for the finger command.
 
 I was using CentOS. The last version of CentOs doesn't have ```finger``` command, the alternative command is ```pinky```
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/9.jpg)
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/10.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens9.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens10.jpg)
 
 8) *List the contents of the home directory using the ls command, define its files
 and directories. Hint: Use the help system to familiarize yourself with the ls
 command.
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/11.jpg)
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/12.jpg)
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/13.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens11.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens12.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens13.jpg)
 
 * 1st column 
 permission
@@ -423,21 +423,21 @@ example, display all files that contain a character c, or files that contain a
 specific sequence of characters. List subdirectories of the root directory up to
 and including the second nesting level.
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/20.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens20.jpg)
 
 To list the directory contents with the full path prefix for each sub-directory and file, i used the -f as shown.
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/21.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens21.jpg)
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/23.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens23.jpg)
 
 I specified the maximum display depth of the directory tree using the -L option. For example, a depth of 2
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/22.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens22.jpg)
 
 
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/25.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens25.jpg)
 
 To display only those files that match the wild-card pattern I used the -P flag and specify your pattern.  The command will only list files that match c*
 ```tree -P [[pattern]*]/[*[pattern]]/[[*pattern*]]```
@@ -455,18 +455,18 @@ and including the second nesting level.
 
 ```tree -d -L 1```
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/24.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens24.jpg)
 
 2) What command can be used to determine the type of file (for example, text or
 binary)? Give an example.
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/26.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens26.jpg)
 Command ```file```
 
 3) Master the skills of navigating the file system using relative and absolute paths.
 How can you go back to your home directory from anywhere in the filesystem?
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/27.jpg) 
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens27.jpg) 
 
 ``` sh
 cd /var/log
@@ -543,7 +543,7 @@ rm -rf labwork2
 file labwork2
 cat labwork2
 ```
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/28.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens28.jpg)
 A symbolic or soft link is an actual link to the original file, whereas a hard link is a mirror copy of the original file. If delete the original file, the soft link has no value, because it points to a non-existent file. But in the case of hard link, it is entirely opposite. Even if delete the original file, the hard link will still has the data of the original file. Because hard link acts as a mirror copy of the original file.
 
 screen
@@ -553,40 +553,40 @@ sequence.
 
 ```updatedb``` - update filebase
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/29.jpg)
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/30.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens29.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens30.jpg)
 
 8) Determine which partitions are mounted in the system, as well as the types of
 these partitions.
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/31.jpg)
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/32.jpg)
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/33.jpg)
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/34.jpg)
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/35.jpg)
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/36.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens31.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens32.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens33.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens34.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens35.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens36.jpg)
 
 ```cfdicsk```
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/37.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens37.jpg)
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/38.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens38.jpg)
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/39.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens39.jpg)
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/47.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens47.jpg)
 
 9) Count the number of lines containing a given sequence of characters in a given
 file.
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/40.jpg)
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/41.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens40.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens41.jpg)
 
 10) Using the find command, find all files in the /etc directory containing the
 host character sequence.
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/42.jpg)
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/43.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens42.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens43.jpg)
 
 11) List all objects in /etc that contain the ss character sequence. How can I
 duplicate a similar command using a bunch of grep?
@@ -595,13 +595,13 @@ duplicate a similar command using a bunch of grep?
 cd /etc 
 grep ss * && !!
 ```
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/44.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens44.jpg)
 
 * Search across multiple files
 > This's command finds inside and outside the file. It's interesting and I think I must write here.
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/45.jpg)
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/46.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens45.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens46.jpg)
 
 12) Organize a screen-by-screen print of the contents of the /etc directory. Hint:
 You must use stream redirection operations.
@@ -616,14 +616,14 @@ You must use stream redirection operations.
 examples.
 
 EXAMPLES:
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/47.jpg)
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/48.jpg)
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/50.jpg)
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/51.jpg)
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/52.jpg)
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/53.jpg)
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/54.jpg)
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/55.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens47.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens48.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens50.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens51.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens52.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens53.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens54.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens55.jpg)
 
 The ones that have a "b" are block type devices and the ones that begin with "c" are character devices.
 p - pipe
@@ -674,8 +674,8 @@ Device file (block, character) - See above
 15) * List the first 5 directory files that were recently accessed in the /etc
 directory.
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/56.jpg)
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/screens/57.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens56.jpg)
+![Image](hhttps://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.1/screens57.jpg)
 
 
 >> This is what I found on unix.stackexchnage.com . I think It's interesting and I leave here for myself
