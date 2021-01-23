@@ -246,4 +246,4 @@ Restricted Deletion Flag (or "Sticky Bit")
 The restricted deletion flag or sticky bit is a single bit, whose interpretation depends on the file type. For directories, it prevents unprivileged users from removing or renaming a file in the directory unless they own the file or the directory; this is called the restricted deletion flag for the directory, and is commonly found on world-writable directories like /tmp. For regular files on some older systems, the bit saves the program's text image on the swap device so it will load more quickly when run; this is called the sticky bit.
 
 17) What file attributes should be present in the command script?
->?
+```chmod u+x bashfile.sh``` or ``` chmod ugo +x bashfile.sh```
