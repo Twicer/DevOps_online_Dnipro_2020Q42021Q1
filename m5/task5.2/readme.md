@@ -138,7 +138,7 @@ b) You can change the password to NULL variable and then all passwords will be u
 10) How to remove a user's password and provide him with a password-free login for subsequent password change?
 ```passwd --delete `udername` ``` 
   -d, --delete            delete the password for the named account (root only); also removes password lock if any
-						  
+  -e, --expire		 Immediately expire an account's password. This forces a user to change their password the next time they log in. (- If you need it).
 11) Display the extended format of information about the directory, tell about the information columns displayed on the terminal.
 ```ls -aldi /usr```
 ```33575046 drwxr-xr-x. 12 root root 144 Jan 15 13:59 /usr```
