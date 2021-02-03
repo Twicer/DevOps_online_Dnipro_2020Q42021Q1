@@ -803,6 +803,15 @@ Following command opens access to an internal Postgres database at port 1111 and
 5*. Intercept (capture) traffic (tcpdump, wireshark) while authorizing the remote client on the
 server using ssh, telnet, rlogin. Analyze the result.
 
+```tcpdump -i en01 -w dump.pcap 'telnet&&ssh&&telnet&&rlogin' ```
+
+```tshark -w packets.pcap -f "telnet&&ssh&&rlogin"```
+
+or parse
+
+``tcpdump -r packetsdump.pcap 'telnet&&ssh&&rlogin' -w ssh,telnet,rlofin_packets.pcap```
+
+telnet and rlogin aren't a secure protocols can be captured and decrypted[.](https://en.wikipedia.org/wiki/Berkeley_r-commands#rlogin)
 
 
 © Oleksii Volchenko
