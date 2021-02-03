@@ -794,9 +794,22 @@ Following command opens access to an internal Postgres database at port 1111 and
 ```ssh -R 2222:sector7.example.com:22 -R 1111:postgresexample.com:1111 gsp.mydomainname.com```
 
 > FOR VirtualBox 
+
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/task5.3/screens/3.jpg)
 
 ```iptables --append FORWARD --protocol tcp --src 10.0.2.2 --sport 22 --dst 0.0.0.0 --dport 2223```
 
 5*. Intercept (capture) traffic (tcpdump, wireshark) while authorizing the remote client on the
 server using ssh, telnet, rlogin. Analyze the result.
+```tcpdump -i en01 -w dump.pcap 'telnet&&ssh&&telnet&&rlogin' ```
+
+```tshark -w packets.pcap -f "telnet&&ssh&&rlogin"```
+
+or parse
+
+``tcpdump -r packetsdump.pcap 'telnet&&ssh&&rlogin' -w ssh,telnet,rlofin_packets.pcap```
+
+telnet and rlogin aren't a secure protocols can be captured and decrypted[.](https://en.wikipedia.org/wiki/Berkeley_r-commands#rlogin)
+
+
+© Oleksii Volchenko
