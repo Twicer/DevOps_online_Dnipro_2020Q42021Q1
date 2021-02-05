@@ -696,6 +696,7 @@ Similar as "wait"
 ```
 
 ***
+
 ##### Part2
 1. Check the implementability of the most frequently used OPENSSH commands in the MS Windows operating system. (Description of the expected result of the commands + screenshots: command – result should be presented)
 
@@ -711,9 +712,9 @@ It's connects and logs into the specified destination, which may be specified as
 ```scp```-OpenSSH secure files copy between hosts on a network.The source and target may be specified as a local pathname, a remote host with optional path in the form [user@]host:[path], or a URI in the form scp://[user@]host[:port][/path]. Local file names can be made explicit using absolute or relative pathnames to avoid scp treating file names containing ‘:’ as host specifiers.
 
 
-![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/task5.3/screens/0.png)
-
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/task5.3/screens/1.png)
+
+![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/task5.3/screens/2.png)
 
 2. Implement basic SSH settings to increase the security of the client-server connection (at least
 >My basic SSH setings to increse the security:
