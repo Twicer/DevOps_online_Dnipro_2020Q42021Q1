@@ -810,7 +810,7 @@ server using ssh, telnet, rlogin. Analyze the result.
 
 or parse
 
-``tcpdump -r packetsdump.pcap 'telnet&&ssh&&rlogin' -w ssh,telnet,rlofin_packets.pcap```
+```tcpdump -r packetsdump.pcap 'telnet&&ssh&&rlogin' -w ssh,telnet,rlofin_packets.pcap```
 
 telnet and rlogin aren't a secure protocols can be captured and decrypted[.](https://en.wikipedia.org/wiki/Berkeley_r-commands#rlogin)
 
