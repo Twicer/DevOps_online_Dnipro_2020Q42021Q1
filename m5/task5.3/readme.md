@@ -794,12 +794,7 @@ This example opens a connection to the google.com jump server, and forwards any 
 Following command opens access to an internal Postgres database at port 1111 and an internal SSH port at port 2222
 ```ssh -R 2222:sector7.example.com:22 -R 1111:postgresexample.com:1111 gsp.mydomainname.com```
 
-<<<<<<< HEAD
-> FOR VirtualBox 
-=======
-
 **  > FOR VirtualBox 
->>>>>>> a6e7b3c7b9b2b76b061a63bcf3609c4bde04cf59
 
 ![Image](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/blob/master/m5/task5.3/screens/3.jpg)
 
@@ -807,10 +802,7 @@ Following command opens access to an internal Postgres database at port 1111 and
 
 5*. Intercept (capture) traffic (tcpdump, wireshark) while authorizing the remote client on the
 server using ssh, telnet, rlogin. Analyze the result.
-<<<<<<< HEAD
-=======
 
->>>>>>> a6e7b3c7b9b2b76b061a63bcf3609c4bde04cf59
 ```tcpdump -i en01 -w dump.pcap 'telnet&&ssh&&telnet&&rlogin' ```
 
 ```tshark -w packets.pcap -f "telnet&&ssh&&rlogin"```
