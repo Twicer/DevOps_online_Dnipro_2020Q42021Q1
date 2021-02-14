@@ -14,4 +14,4 @@
 * [TASK5.2](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.2)
 * [TASK5.3](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m5/task5.3)
 * [TASK6.1](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m6/Task6.1)
-*
+* [TASK7.1](https://github.com/Twicer/DevOps_online_Dnipro_2020Q42021Q1/tree/master/m7/task7.1)
