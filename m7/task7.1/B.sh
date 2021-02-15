@@ -21,8 +21,11 @@ function fourB () {
       }' example_log.log
 }
 
-function fourB () {
-echo "FOURb"
+function fiveB () {
+outFile=0
+awk '/302/ {print $7;getline;print $7;}' $1 | awk '! /404/' > $outFile
+echo Non-existent pages :
+cat $outFile
 }
 
 function sixB () {

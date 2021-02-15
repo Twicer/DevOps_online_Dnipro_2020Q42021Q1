@@ -11,10 +11,15 @@ echo -e "\nSOURCE ==>" "$1" "DESTINATION ===>" "$2" | logger
 #max length file in linux is 255 english symbols or "127,5" cyrillic symbols
 #inputBranch=$(pwd $1)
 #метод старый и дубовый конечно, но пусть а то зае
+#input=$(stat -c %n "$1"|rev| cut -d "/" -f 1|rev)
+#inputBranch=$(stat -c %n "$1" |rev| cut --complement -d "/" -f 1|rev)
+#Updated!
 
-input=$(stat -c %n "$1"|rev| cut -d "/" -f 1|rev)
-inputBranch=$(stat -c %n "$1" |rev| cut --complement -d "/" -f 1|rev)
+input=`basename "$1"`
+inputBranch=$(dirname "$1")
 outputDestination=$(echo "$2""/""$input")
+
+
 #echo "Input:" "$input"
 #echo "InputBranch:" "$inputBranch"
 #echo "Output Result:" "$outputDestination"
@@ -41,7 +46,7 @@ input=$(crontab -l -u $USER | grep "/tmp/backup_folders.sh")
 #if [[ $input!=FALSE ]];
 if [[ -n input ]];
      then
-        cp ./31.sh  /tmp/backup_folders.sh
+        cp ./C.sh  /tmp/backup_folders.sh
         sudo echo "5 /1 * * * *   main    /tmp/backup_folders.sh" "$1" "$2" >> /var/spool/cron/crontabs/$USER
         sudo systemctl restart cron.service
 fi
