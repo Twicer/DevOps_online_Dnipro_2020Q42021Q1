@@ -47,7 +47,7 @@ input=$(crontab -l -u $USER | grep "/tmp/backup_folders.sh")
 if [[ -n input ]];
      then
         cp ./C.sh  /tmp/backup_folders.sh
-        sudo echo "5 /1 * * * *   main    /tmp/backup_folders.sh" "$1" "$2" >> /var/spool/cron/crontabs/$USER
+        sudo echo "5 /1 * * * *   ""$USER""    /tmp/backup_folders.sh" "$1" "$2" >> /var/spool/cron/crontabs/$USER
         sudo systemctl restart cron.service
 fi
 #sudo cat /var/log/syslog | grep "*NEW"
