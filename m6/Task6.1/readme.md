@@ -1,4 +1,4 @@
-# EPAM University Programs
+# University Programs
 
 ## DevOps education program
 ### Module 6 Networking with Linux 
