@@ -1,4 +1,4 @@
-# EPAM University Programs DevOps education program
+# University Programs DevOps education program
 
 ## Module 2 Virtualization and Cloud Basic TASK 2.1
 #### PART 1. HYPERVISORS
